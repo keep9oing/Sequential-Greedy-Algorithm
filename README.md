@@ -1,11 +1,14 @@
 # Sequential-Greedy-Algorithm
 sequential greedy algorithm (SGA) for multi robot task allocation
 
-Cost: euclidean distance
+## Cost
+euclidean distance
 
-MinSum & MinMax version is available now.
+## Objective
+1. MinSum
+2. MinMax
 
-refrenced from [[1]](#1)
+referenced from [[1]](#1)
 
 
 ## Example of SGA

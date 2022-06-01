@@ -1,6 +1,11 @@
 # Sequential-Greedy-Algorithm
 sequential greedy algorithm (SGA) for multi robot task allocation
 
+## Dependency
+- numpy
+- scipy
+- matplotlib
+
 ## Cost
 euclidean distance
 

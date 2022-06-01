@@ -67,7 +67,7 @@ for n in range(N_min):
 
     if eta[i_star] == L_t:
         I.remove(i_star)
-        score[i_star,J] = -np.inf
+        score[i_star,:] = -np.inf
 
     score[I,j_star] = -np.inf
 

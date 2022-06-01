@@ -20,7 +20,7 @@ Sp = [0 for i in range(len(robot))]
 
 L_t = len(task)
 N_min = min(len(task),len(robot)*L_t)
-alpha = 0.1
+alpha = 1
 
 eta = np.zeros(len(robot),dtype=np.int16)
 score = -distance_matrix(robot,task)
@@ -64,7 +64,7 @@ for n in range(N_min):
 
     if eta[i_star] == L_t:
         I.remove(i_star)
-        score[i_star,J] = -np.inf
+        score[i_star,:] = -np.inf
 
     score[I,j_star] = -np.inf
 
